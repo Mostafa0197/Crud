@@ -20,7 +20,7 @@
           type="text"
           class="form-control"
           id="productName"
-          onkeyup="validateName()"
+          onblur="validateName()"
         />
         <div class="alert alert-danger my-2" id="alertName">
           Please start name with uppercase
@@ -32,7 +32,7 @@
           type="number"
           class="form-control"
           id="productPrice"
-          onkeyup="validatePrice()"
+          onblur="validatePrice()"
         />
         <div class="alert alert-danger my-2" id="alertPrice">
           Please enter real price
